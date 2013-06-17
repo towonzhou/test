@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>hello</title>
+  <script src="jquery.min.js"></script>
+  <script type="text/javascript">
+      function readrepo() {
+                  console.log('aaa');
+          $.get("http://qomo.linux-ren.com", function(docs){
+                  //document.body = docs;
+                  console.log(docs);
+                  })
+      }
+  </script>
+</head>
+<body>
+
+<h1>Native Client Module HelloTutorial</h1>
+<button type="button" onclick="readrepo()" > aaa </button>
+</body>
+</html>

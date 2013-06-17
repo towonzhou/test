@@ -1,0 +1,14 @@
+{
+  "files": {},
+  "program": {
+    "x86-64": {
+      "url": "gamepad_x86_64.nexe"
+    },
+    "arm": {
+      "url": "gamepad_arm.nexe"
+    },
+    "x86-32": {
+      "url": "gamepad_x86_32.nexe"
+    }
+  }
+}

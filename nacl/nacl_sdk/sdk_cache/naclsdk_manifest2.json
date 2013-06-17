@@ -1,0 +1,101 @@
+{
+  "bundles": [
+    {
+      "archives": [
+        {
+          "checksum": {
+            "sha1": "9c9af9e050cce3d490c7c1dd612910bed3f32b59"
+          },
+          "host_os": "all",
+          "size": 29354,
+          "url": "https://commondatastorage.googleapis.com/nativeclient-mirror/nacl/nacl_sdk/trunk.201132/sdk_tools.tgz"
+        }
+      ],
+      "description": "Native Client SDK Tools, revision 201132",
+      "name": "sdk_tools",
+      "recommended": "yes",
+      "revision": 201132,
+      "stability": "stable",
+      "version": 1
+    },
+    {
+      "archives": [
+        {
+          "checksum": {
+            "sha1": "32c221b3f6bb58e160e3c1bd8a1e2330e3f411b4"
+          },
+          "host_os": "all",
+          "size": 33470786,
+          "url": "https://commondatastorage.googleapis.com/nativeclient-mirror/nacl/nacl_sdk/27.0.1453.110/naclports.tar.bz2"
+        },
+        {
+          "checksum": {
+            "sha1": "f82e34527132e0891ac18531be04d98aa7e5c853"
+          },
+          "host_os": "linux",
+          "size": 248844076,
+          "url": "https://commondatastorage.googleapis.com/nativeclient-mirror/nacl/nacl_sdk/27.0.1453.110/naclsdk_linux.tar.bz2"
+        },
+        {
+          "checksum": {
+            "sha1": "cc9a50b5afcf0fdcc6c336dca74e077601441194"
+          },
+          "host_os": "mac",
+          "size": 219590087,
+          "url": "https://commondatastorage.googleapis.com/nativeclient-mirror/nacl/nacl_sdk/27.0.1453.110/naclsdk_mac.tar.bz2"
+        },
+        {
+          "checksum": {
+            "sha1": "a4135c5449fac83fb745896f5e807ea09a36a4fb"
+          },
+          "host_os": "win",
+          "size": 234868912,
+          "url": "https://commondatastorage.googleapis.com/nativeclient-mirror/nacl/nacl_sdk/27.0.1453.110/naclsdk_win.tar.bz2"
+        }
+      ],
+      "description": "Chrome 27 bundle, revision 202711",
+      "name": "pepper_27",
+      "recommended": "yes",
+      "repath": "pepper_27",
+      "revision": 202711,
+      "stability": "stable",
+      "version": 27
+    },
+    {
+      "archives": [
+        {
+          "checksum": {
+            "sha1": "9dd0e033abef7585594d9abd9cc99b14d01df707"
+          },
+          "host_os": "linux",
+          "size": 221693672,
+          "url": "https://commondatastorage.googleapis.com/nativeclient-mirror/nacl/nacl_sdk/25.0.1364.172/naclsdk_linux.tar.bz2"
+        },
+        {
+          "checksum": {
+            "sha1": "d9d05e24579f6c8eb1568c266aca642f9761c175"
+          },
+          "host_os": "mac",
+          "size": 201988612,
+          "url": "https://commondatastorage.googleapis.com/nativeclient-mirror/nacl/nacl_sdk/25.0.1364.172/naclsdk_mac.tar.bz2"
+        },
+        {
+          "checksum": {
+            "sha1": "fd22af3d7022e308a985f4285b0fc4dd3cc78ffc"
+          },
+          "host_os": "win",
+          "size": 197350976,
+          "url": "https://commondatastorage.googleapis.com/nativeclient-mirror/nacl/nacl_sdk/25.0.1364.172/naclsdk_win.tar.bz2"
+        }
+      ],
+      "description": "Chrome 25 bundle, revision 187217",
+      "name": "pepper_25",
+      "recommended": "no",
+      "repath": "pepper_25",
+      "revision": 187217,
+      "stability": "post_stable",
+      "version": 25
+    }
+  ],
+  "manifest_version": 2
+}
