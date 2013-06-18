@@ -5,18 +5,20 @@
   <title>hello</title>
   <script src="jquery.min.js"></script>
   <script type="text/javascript">
-      function readrepo() {
-                  console.log('aaa');
-          $.get("http://qomo.linux-ren.com", function(docs){
-                  //document.body = docs;
-                  console.log(docs);
-                  })
-      }
+        function plugin0()
+        {
+            return document.getElementById('plugin0');
+        }
+        plugin = plugin0;
+        function readuuid() {
+            alert(plugin().uuid);
+        }
   </script>
 </head>
 <body>
-
-<h1>Native Client Module HelloTutorial</h1>
-<button type="button" onclick="readrepo()" > aaa </button>
+<object id="plugin0" type="application/x-zhou" width="0" height="0">
+    <param name="onload" value="pluginLoaded" />
+</object><br />
+<button type="button" onclick="readuuid()" > aaa </button>
 </body>
 </html>
